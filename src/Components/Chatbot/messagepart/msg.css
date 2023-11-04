@@ -1,0 +1,18 @@
+.user-dp {
+    border: 2px solid #dec753;
+    border-radius: 50%;
+    width: 40px;
+}
+
+.user-message-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.train-dp {
+    width: 50px;
+    /* border: 2px solid #2599E4; */
+    /* border-radius: 50%; */
+}

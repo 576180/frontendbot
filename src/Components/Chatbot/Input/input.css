@@ -1,0 +1,62 @@
+.input-button-chat {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.input-button-chat1 {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 12px;
+  border-radius: 5px;
+  width: 100px;
+  padding: 5px;
+  background: white;
+
+}
+
+.outer-div-input {
+  align-items: center;
+  border-radius: 50px;
+  bottom: 0;
+  box-shadow: 0 10px 30px rgba(221, 221, 235, .3);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.inputBox-text-item {
+  border: 1px solid #dec753;
+  border-radius: 32px 0 0 32px;
+  border-right: none;
+  color: #002b4f;
+  font-size: 18px;
+  height: 8vh;
+  outline: none;
+  padding-left: 1.4rem;
+  width: 100%;
+}
+
+input.inputBox-text-item::placeholder {
+  font-size: 18 px;
+  line-height: 23px;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.input-button-chat {
+  background: #fff;
+  border: 1px solid #dec753;
+  border-left: none;
+  border-radius: 0 32px 32px 0;
+  cursor: pointer;
+  height: 8vh;
+}
+
+.inputimg {
+  width: 40px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}

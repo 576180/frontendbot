@@ -1,0 +1,18 @@
+.navbar-main {
+    align-items: center;
+    background: linear-gradient(to right top, #dec753, #a9c862, #76c47b, #45bb95, #1bb0aa);
+    color: #fff;
+    display: flex;
+    gap: 20px;
+    height: 10vh;
+    padding: 10px;
+}
+
+
+.ir-logo {
+    background: #fff;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.navbar-main h3 {}

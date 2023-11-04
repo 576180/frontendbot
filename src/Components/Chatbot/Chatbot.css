@@ -1,0 +1,115 @@
+.chatwindow_main {
+  /* height: 100vh;  
+  position: relative;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex; */
+  display: flex;
+  justify-content: center;
+}
+
+.message-part-container {
+  margin: 5px;
+  padding: 10px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  height: 75vh;
+  /* background: url('../../assets/images/vande-bharat.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center; */
+}
+
+.message-part-container:before {
+  background: url('../../assets/images/vande-bharat.png');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  bottom: 0;
+  content: "";
+  left: -140;
+  margin-left: 25%;
+  opacity: .5;
+  position: absolute;
+  right: -1;
+  top: 0;
+  width: 25%;
+  z-index: -1;
+}
+
+.user-message-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user_message {
+  background: #1bb0aa;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+
+.bot-message-container {
+  max-width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+
+.bot_message {
+  background: #dec753;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 20px;
+  white-space: pre-wrap;
+}
+
+.chatwindow-left {
+  width: 50%;
+  background-image: url("https://img.freepik.com/free-vector/cute-bot-say-users-hello-chatbot-greets-online-consultation_80328-195.jpg?w=740&t=st=1694412988~exp=1694413588~hmac=c345a3dd5a47ccc9f4c7b3c12713f80f4a5a2d9486a1b6cb7f2c3f9ec4c2dbad");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.chatwindow-right {
+  width: 50%;
+}
+
+.botsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  flex-direction: column;
+}
+
+.message-part-container {
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #aaa #f0f0f0;
+  scroll-behavior: smooth;
+}
+
+.message-part-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.message-part-container::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.message-part-container::-webkit-scrollbar-track {
+  background-color: #f0f0f0;
+  /* Color of the track */
+}

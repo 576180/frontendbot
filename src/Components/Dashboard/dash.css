@@ -1,0 +1,199 @@
+    /* Add these styles to your component's CSS file or your global CSS */
+
+    .dashboard-container {
+      display: flex;
+      height: 100%;
+    }
+
+    .sidebar {
+      width: 25%;
+      
+      /* Adjust the sidebar width as needed */
+      background-color: fcefdf;
+      /* Sidebar background color */
+      /* padding: 20px; */
+      box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+      /* Sidebar shadow */
+    }
+
+    .sidebar img{
+      width: 150px;
+      padding: 10px;
+    }
+
+    .sidebar h2 {
+      padding-top: 10px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      padding-left: 20px;
+      font-family: Inter;
+      font-weight: 600;
+
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding : 20px;
+      font-family: Inter;
+
+    }
+
+    .ul {
+      height: 78vh;
+      overflow-y: scroll;
+    }
+
+    .sidebar li {
+      /* margin-bottom: 10px; */
+      cursor: pointer;
+      /* background-color: #F2E8C6; */
+      /* color: white; */
+      border-bottom: 1px solid #e3e3e3;
+    }
+
+    .main-content {
+      flex: 1;
+      
+      display: flex;
+      flex-direction: column;
+    }
+.text1{
+font-size: 12px;
+width: 100%;
+}
+.text2{
+font-size: 12px;
+}
+.file-names{
+  display: flex;
+  width: 100%;
+}
+.file-cat{
+  background: #fcefdf;
+  padding: 5px 10px;
+  border-radius: 10px;
+  display: block;
+  width: fit-content;
+  margin: 0 0 5px auto;
+}
+
+    /* Width */
+ul.ul::-webkit-scrollbar {
+  width: 6px;
+  
+}
+
+/* Track */
+ul.ul::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+ul.ul::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px
+}
+
+/* Handle on hover */
+ul.ul::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Buttons */
+
+
+.span{
+font-size: 18px;
+font-family: Inter;
+font-weight: 500;
+}
+
+.mc-left{
+  display: flex;
+ 
+  width: 100%;
+  padding: 40px 2 0px;
+}
+
+.pdf-viewer{
+  
+    
+  
+}
+
+.mc-body{
+  height: 79vh;
+  overflow-y: scroll;
+display: flex;
+flex-direction: column;
+gap: 20px;
+  padding: 20px;
+}
+
+.mc-body::-webkit-scrollbar {
+  width: 6px;
+  height: 10px;
+}
+
+/* Track */
+.mc-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.mc-body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px
+}
+
+/* Handle on hover */
+.mc-body::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+
+
+.pdf-viewer::-webkit-scrollbar {
+  width: 6px;
+  height: 1px;
+}
+
+/* Track */
+.pdf-viewer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.pdf-viewer::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px
+}
+
+/* Handle on hover */
+.pdf-viewer::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.imgg{
+  width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.widthnavbar{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  background-color: #FCEFDF;
+  width: 100%;
+}
+.buttonvss{
+border: blue;
+  border-radius: 5px;
+  color: blue;
+  background-color: white;
+}
