@@ -59,7 +59,7 @@ const Messagepart = () => {
                         {
                           msg.pdfLink.map(e =>
                             <>
-                              <a href='e' onClick={() => {
+                              <a href={e} onClick={() => {
                               }}> {e}</a>
                             </>
                           )
