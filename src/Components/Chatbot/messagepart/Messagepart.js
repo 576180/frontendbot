@@ -6,6 +6,7 @@ import Example from '../../modal/modal';
 import user from '../../../assets/images/user.png';
 import train from '../../../assets/images/train.png'
 import Accordion from 'react-bootstrap/Accordion';
+import Markdown from "react-markdown";
 
 
 const Messagepart = () => {
@@ -47,7 +48,16 @@ const Messagepart = () => {
               <div><img src={train} alt='train-dp' className='train-dp' /></div>
               <div className="bot_message">
                 {/* {anserCArdfortheRsponse(msg)} */}
-                {msg.text}
+
+                <Markdown
+                // remarkPlugins={[
+                //   [remarkGfm],
+                //   [remarkToc, { tight: true, maxDepth: 5 }],
+                // ]}
+                >
+                  {msg.text}
+                </Markdown>
+
                 {console.log(msg.pdfLink, "hsjdhsjdhsdjh")}
                 {
                   msg.pdfLink &&
@@ -82,3 +92,10 @@ const Messagepart = () => {
 };
 
 export default Messagepart;
+
+
+
+
+
+
+
